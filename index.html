@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio de [Tu Nombre]</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f8;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 2.5rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      color: #ccc;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .project {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+      padding: 1.2rem;
+      margin-bottom: 2rem;
+      transition: transform 0.2s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-3px);
+    }
+
+    .project h2 {
+      font-size: 1.3rem;
+      color: #2c3e50;
+      margin-bottom: 0.5rem;
+    }
+
+    .project img {
+      max-width: 250px;
+      width: 100%;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin: 1rem auto;
+    }
+
+    .project p {
+      font-size: 0.95rem;
+      color: #555;
+      line-height: 1.5;
+      margin: 0 auto 1rem;
+      max-width: 90%;
+    }
+
+    .project a {
+      display: inline-block;
+      background-color: #2980b9;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .project a:hover {
+      background-color: #21618c;
+    }
+
+    footer {
+      font-size: 0.85rem;
+      padding: 2rem 1rem;
+      color: #888;
+      background-color: #f0f0f0;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      .project img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hola, soy Jose Gutierrez</h1>
+    <p>Licenciado en Desarrollo de Software | apasionado por la tecnologia </p>
+  </header>
+
+  <div class="container">
+
+    <div class="project">
+      <h2>Tienda Virtual </h2>
+      <img src="https://i.ibb.co/3YQy7n8F/Captura-de-pantalla-2025-07-22-143013.png" alt="TiendaVirtual">
+      <p>Tienda Virtual, desarrollada con TypeScript, react.js y tailwind, permite añadir productos al carrito de compras y mantener los productos incluso luego de refrezcar la pagina utilizando localStorage</p>
+      <a href="https://github.com/JoseG1515/guitarla-ts-UseReducer" target="_blank">Ver en GitHub</a> 
+      <a href="https://starlit-crostata-bde245.netlify.app/" target="_blank">Demo</a>
+    </div>
+
+    <div class="project">
+      <h2>Contador de Calorias</h2>
+      <img src="https://i.ibb.co/4ZyCMyCw/Captura-de-pantalla-2025-07-22-145544.png" alt="Contador de calorias">
+      <p>Aplicación para llevar control de calorias personales, tambien utiliza localStorage para que la pagina sea persistente ante el refresh, fue desarrollada en TypeScrip, react.js y tailwind.</p>
+      <a href="https://github.com/JoseG1515/calorie-tracker"_blank">Ver en GitHub</a> 
+      <a href="https://fascinating-pasca-34bfc3.netlify.app/" target="_blank">Demo</a>
+
+    </div>
+
+    <div class="project">
+      <h2>Calculadora de Propinas</h2>
+      <img src="https://i.ibb.co/hxmhbQZC/Captura-de-pantalla-2025-07-22-150903.png" alt="Contador de calorias">
+      <p>aplicacion para calcular el monto a pagar añadiendo propinas en un restaurante, esta desarrollado en TypeScript, react.js, y tailwind.</p>
+      <a href="https://github.com/JoseG1515/calculadora-propinas-reducer" target="_blank">Ver en GitHub</a>
+      <a href="https://aesthetic-gumdrop-e92e18.netlify.app/" target="_blank">Demo</a>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 Jose Gutierrez • Portafolio creado con GitHub Pages
+  </footer>
+
+</body>
+</html>
